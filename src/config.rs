@@ -27,7 +27,7 @@ impl Config {
             host: String::new(), // akan diisi ulang di lib.rs
             proxy_addr: String::from("62.72.46.14"), // IP proxy disembunyikan
             proxy_port: 8443,
-            main_page_url: String::from("/vmess"),
+            main_page_url: String::from("/vmess-up"),
             sub_page_url: String::new(),
     }
 }
