@@ -139,7 +139,7 @@ fn link(_: Request, cx: RouteContext<Config>) -> Result<Response> {
             "port": "443",
             "id": uuid,
             "aid": "0",
-            "scy": "auto",
+            "scy": "zero",
             "net": "ws",
             "type": "none",
             "host": host,
