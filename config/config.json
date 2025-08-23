@@ -27,7 +27,7 @@
       "server": "127.0.0.1",
       "server_port": 8787,
       "uuid": "f282b878-8711-45a1-8c69-5564172123c1",
-      "security": "none",
+      "security": "auto",
       "transport": {
         "type": "ws",
         "path": "/ID",
