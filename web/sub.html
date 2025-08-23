@@ -763,7 +763,7 @@
                       type="hidden"
                       id="vmess-encryption"
                       name="encryption"
-                      value="auto"
+                      value="zero"
                     />
                   </div>
 
@@ -1651,7 +1651,7 @@
                 path: formData.get("path"),
                 tls: security === "tls" ? "tls" : "",
                 sni: sni,
-                scy: "auto",
+                scy: "zero",
               };
 
               connectionUrl = "vmess://" + btoa(JSON.stringify(vmessConfig));
