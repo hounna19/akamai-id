@@ -21,6 +21,13 @@ impl Config {
             proxy_port: 8443,
             main_page_url: String::from("/vmess"),
             sub_page_url: String::new(),
-        }
+        },
+        Config {
+            uuid: Uuid::nil(), // akan diisi ulang di lib.rs
+            host: String::new(), // akan diisi ulang di lib.rs
+            proxy_addr: String::from("62.72.46.14"), // IP proxy disembunyikan
+            proxy_port: 8443,
+            main_page_url: String::from("/vmess"),
+            sub_page_url: String::new(),
     }
 }
