@@ -12,13 +12,13 @@ compatibility_date = "2024-05-23"
 minify = true
 
 # ===============[ account id ]==================
-account_id = "487b5e794560518a4a9880cfafa1dd22"
+account_id = "5de23fc3efe0fbef651609be4170cfbb"
 workers_dev = true
 
 # ===============[ KV STORAGE ]==================
 [[kv_namespaces]]
 binding = "AIO"
-id = "4b2249c348ac45b5a3b83ac83f5a8ddd"
+id = "1601e8302a8d4e73a77931083d4c4361"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
@@ -28,7 +28,7 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 
 # =================[ UUID V4 ]===================
 [vars]
-UUID = "1bb1bc0a-b077-4dee-972d-d958b1f728ba"
+UUID = "a0779124-aa23-40b5-9149-05fb559a76cd"
 MAIN_PAGE_URL = "https://raw.githubusercontent.com/hounna19/akamai-id/refs/heads/main/web/index.html"
 SUB_PAGE_URL = "https://raw.githubusercontent.com/hounna19/akamai-id/refs/heads/main/web/sub.html"
 
